@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162C314A76285B5B20F55740 /* Pods_SparkNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCE51C63008216E357E2E40 /* Pods_SparkNow.framework */; };
+		7E193F562272753A00E38CF3 /* NorthGarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193F552272753A00E38CF3 /* NorthGarageViewController.swift */; };
+		7E193F582272775D00E38CF3 /* SouthGarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193F572272775D00E38CF3 /* SouthGarageViewController.swift */; };
+		7E193F5A22727D1300E38CF3 /* WestGarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193F5922727D1300E38CF3 /* WestGarageViewController.swift */; };
+		7E193F5C22727DBC00E38CF3 /* ParkNRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193F5B22727DBC00E38CF3 /* ParkNRideViewController.swift */; };
+		7E193F5F22727E8600E38CF3 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193F5E22727E8600E38CF3 /* EventViewController.swift */; };
+		7E193F6122727EAF00E38CF3 /* DiscussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193F6022727EAF00E38CF3 /* DiscussionViewController.swift */; };
+		7E193F6322727F9F00E38CF3 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193F6222727F9F00E38CF3 /* UserProfileViewController.swift */; };
+		FBB49D95222FA2BC00C24CF6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBB49D94222FA2BC00C24CF6 /* README.txt */; };
+		FBB82C522227AA510030D63A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB82C512227AA510030D63A /* AppDelegate.swift */; };
+		FBB82C542227AA510030D63A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB82C532227AA510030D63A /* ViewController.swift */; };
+		FBB82C572227AA510030D63A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB82C552227AA510030D63A /* Main.storyboard */; };
+		FBB82C592227AA520030D63A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB82C582227AA520030D63A /* Assets.xcassets */; };
+		FBB82C5C2227AA520030D63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB82C5A2227AA520030D63A /* LaunchScreen.storyboard */; };
+		FBB82C642227B1CB0030D63A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB82C632227B1CB0030D63A /* SignInViewController.swift */; };
+		FBB82C69222CFF230030D63A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB82C68222CFF230030D63A /* SignUpViewController.swift */; };
+		FBB82C6B222D02600030D63A /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB82C6A222D02600030D63A /* HomePageViewController.swift */; };
+		FBB83DA8238BA7B9008AF6F4 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB83DA7238BA7B9008AF6F4 /* UIButtonExtension.swift */; };
+		FBB83DAE238F1438008AF6F4 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB83DAD238F1438008AF6F4 /* Authentication.swift */; };
+		FBC048002272E8B70018A9F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBC047FF2272E8B70018A9F3 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		296E39ABFE707D76DC55D2BD /* Pods-SparkNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkNow.release.xcconfig"; path = "Target Support Files/Pods-SparkNow/Pods-SparkNow.release.xcconfig"; sourceTree = "<group>"; };
+		3BCE51C63008216E357E2E40 /* Pods_SparkNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E193F552272753A00E38CF3 /* NorthGarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthGarageViewController.swift; sourceTree = "<group>"; };
+		7E193F572272775D00E38CF3 /* SouthGarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthGarageViewController.swift; sourceTree = "<group>"; };
+		7E193F5922727D1300E38CF3 /* WestGarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestGarageViewController.swift; sourceTree = "<group>"; };
+		7E193F5B22727DBC00E38CF3 /* ParkNRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkNRideViewController.swift; sourceTree = "<group>"; };
+		7E193F5E22727E8600E38CF3 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		7E193F6022727EAF00E38CF3 /* DiscussionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionViewController.swift; sourceTree = "<group>"; };
+		7E193F6222727F9F00E38CF3 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		F19E2AFAEDBA6C4409C5D664 /* Pods-SparkNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkNow.debug.xcconfig"; path = "Target Support Files/Pods-SparkNow/Pods-SparkNow.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB49D94222FA2BC00C24CF6 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		FBB82C4E2227AA510030D63A /* SparkNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB82C512227AA510030D63A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBB82C532227AA510030D63A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBB82C562227AA510030D63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBB82C582227AA520030D63A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB82C5B2227AA520030D63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBB82C5D2227AA520030D63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB82C632227B1CB0030D63A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FBB82C68222CFF230030D63A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FBB82C6A222D02600030D63A /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		FBB83DA7238BA7B9008AF6F4 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		FBB83DAD238F1438008AF6F4 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		FBC047FF2272E8B70018A9F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB82C4B2227AA510030D63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162C314A76285B5B20F55740 /* Pods_SparkNow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF82C744B791BEFBAE6E2F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BCE51C63008216E357E2E40 /* Pods_SparkNow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E193F5D22727E2800E38CF3 /* Garages */ = {
+			isa = PBXGroup;
+			children = (
+				FBB82C6A222D02600030D63A /* HomePageViewController.swift */,
+				7E193F552272753A00E38CF3 /* NorthGarageViewController.swift */,
+				7E193F572272775D00E38CF3 /* SouthGarageViewController.swift */,
+				7E193F5922727D1300E38CF3 /* WestGarageViewController.swift */,
+				7E193F5B22727DBC00E38CF3 /* ParkNRideViewController.swift */,
+				FBB83DA7238BA7B9008AF6F4 /* UIButtonExtension.swift */,
+			);
+			path = Garages;
+			sourceTree = "<group>";
+		};
+		B2F828C12E639B6CE081088F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F19E2AFAEDBA6C4409C5D664 /* Pods-SparkNow.debug.xcconfig */,
+				296E39ABFE707D76DC55D2BD /* Pods-SparkNow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB3B76E5237286BA000F023F /* Misc Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E193F5E22727E8600E38CF3 /* EventViewController.swift */,
+				FBB83DAD238F1438008AF6F4 /* Authentication.swift */,
+				7E193F6022727EAF00E38CF3 /* DiscussionViewController.swift */,
+				7E193F6222727F9F00E38CF3 /* UserProfileViewController.swift */,
+			);
+			path = "Misc Files";
+			sourceTree = "<group>";
+		};
+		FBB49DBC2230A29200C24CF6 /* Log In Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBB82C632227B1CB0030D63A /* SignInViewController.swift */,
+				FBB82C68222CFF230030D63A /* SignUpViewController.swift */,
+			);
+			path = "Log In Files";
+			sourceTree = "<group>";
+		};
+		FBB82C452227AA510030D63A = {
+			isa = PBXGroup;
+			children = (
+				FBB82C502227AA510030D63A /* SparkNow */,
+				FBB82C4F2227AA510030D63A /* Products */,
+				B2F828C12E639B6CE081088F /* Pods */,
+				1CF82C744B791BEFBAE6E2F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB82C4F2227AA510030D63A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB82C4E2227AA510030D63A /* SparkNow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB82C502227AA510030D63A /* SparkNow */ = {
+			isa = PBXGroup;
+			children = (
+				FBB82C67222CFD880030D63A /* Supporting Files */,
+				FBB82C552227AA510030D63A /* Main.storyboard */,
+				7E193F5D22727E2800E38CF3 /* Garages */,
+				FBB82C5D2227AA520030D63A /* Info.plist */,
+				FBB49D94222FA2BC00C24CF6 /* README.txt */,
+				FBC047FF2272E8B70018A9F3 /* GoogleService-Info.plist */,
+			);
+			path = SparkNow;
+			sourceTree = "<group>";
+		};
+		FBB82C67222CFD880030D63A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBB49DBC2230A29200C24CF6 /* Log In Files */,
+				FB3B76E5237286BA000F023F /* Misc Files */,
+				FBB82C532227AA510030D63A /* ViewController.swift */,
+				FBB82C512227AA510030D63A /* AppDelegate.swift */,
+				FBB82C582227AA520030D63A /* Assets.xcassets */,
+				FBB82C5A2227AA520030D63A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB82C4D2227AA510030D63A /* SparkNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB82C602227AA520030D63A /* Build configuration list for PBXNativeTarget "SparkNow" */;
+			buildPhases = (
+				45E098B2B1D9D1C68026265D /* [CP] Check Pods Manifest.lock */,
+				FBB82C4A2227AA510030D63A /* Sources */,
+				FBB82C4B2227AA510030D63A /* Frameworks */,
+				FBB82C4C2227AA510030D63A /* Resources */,
+				A8303553577BF3B80FF3F6D6 /* [CP] Embed Pods Frameworks */,
+				AC604D8797845DE43C40C6AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkNow;
+			productName = SparkNow;
+			productReference = FBB82C4E2227AA510030D63A /* SparkNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB82C462227AA510030D63A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "Toan Tran";
+				TargetAttributes = {
+					FBB82C4D2227AA510030D63A = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
+					};
+				};
+			};
+			buildConfigurationList = FBB82C492227AA510030D63A /* Build configuration list for PBXProject "SparkNow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBB82C452227AA510030D63A;
+			productRefGroup = FBB82C4F2227AA510030D63A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB82C4D2227AA510030D63A /* SparkNow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB82C4C2227AA510030D63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB82C5C2227AA520030D63A /* LaunchScreen.storyboard in Resources */,
+				FBB82C592227AA520030D63A /* Assets.xcassets in Resources */,
+				FBC048002272E8B70018A9F3 /* GoogleService-Info.plist in Resources */,
+				FBB82C572227AA510030D63A /* Main.storyboard in Resources */,
+				FBB49D95222FA2BC00C24CF6 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45E098B2B1D9D1C68026265D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparkNow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8303553577BF3B80FF3F6D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkNow/Pods-SparkNow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkNow/Pods-SparkNow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkNow/Pods-SparkNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC604D8797845DE43C40C6AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkNow/Pods-SparkNow-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkNow/Pods-SparkNow-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkNow/Pods-SparkNow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB82C4A2227AA510030D63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB82C542227AA510030D63A /* ViewController.swift in Sources */,
+				7E193F6322727F9F00E38CF3 /* UserProfileViewController.swift in Sources */,
+				FBB82C522227AA510030D63A /* AppDelegate.swift in Sources */,
+				7E193F5C22727DBC00E38CF3 /* ParkNRideViewController.swift in Sources */,
+				7E193F5A22727D1300E38CF3 /* WestGarageViewController.swift in Sources */,
+				7E193F582272775D00E38CF3 /* SouthGarageViewController.swift in Sources */,
+				7E193F5F22727E8600E38CF3 /* EventViewController.swift in Sources */,
+				FBB83DAE238F1438008AF6F4 /* Authentication.swift in Sources */,
+				FBB82C69222CFF230030D63A /* SignUpViewController.swift in Sources */,
+				FBB83DA8238BA7B9008AF6F4 /* UIButtonExtension.swift in Sources */,
+				FBB82C6B222D02600030D63A /* HomePageViewController.swift in Sources */,
+				FBB82C642227B1CB0030D63A /* SignInViewController.swift in Sources */,
+				7E193F6122727EAF00E38CF3 /* DiscussionViewController.swift in Sources */,
+				7E193F562272753A00E38CF3 /* NorthGarageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBB82C552227AA510030D63A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB82C562227AA510030D63A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBB82C5A2227AA520030D63A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB82C5B2227AA520030D63A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBB82C5E2227AA520030D63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBB82C5F2227AA520030D63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB82C612227AA520030D63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19E2AFAEDBA6C4409C5D664 /* Pods-SparkNow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AX3KB5879;
+				INFOPLIST_FILE = SparkNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.SJSU.SparkNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FBB82C622227AA520030D63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296E39ABFE707D76DC55D2BD /* Pods-SparkNow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AX3KB5879;
+				INFOPLIST_FILE = SparkNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.SJSU.SparkNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB82C492227AA510030D63A /* Build configuration list for PBXProject "SparkNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB82C5E2227AA520030D63A /* Debug */,
+				FBB82C5F2227AA520030D63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB82C602227AA520030D63A /* Build configuration list for PBXNativeTarget "SparkNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB82C612227AA520030D63A /* Debug */,
+				FBB82C622227AA520030D63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB82C462227AA510030D63A /* Project object */;
+}

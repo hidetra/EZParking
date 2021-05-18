@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>596849058278-3iuhoffv7l5ckp5nnr9123hpl8b4gpbl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.596849058278-3iuhoffv7l5ckp5nnr9123hpl8b4gpbl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDCsYIZU0sYnm8jjjVHPRTcVibB5Bi4raI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>596849058278</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.SJSU.SparkNow</string>
+	<key>PROJECT_ID</key>
+	<string>sparknow-cmpe137</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sparknow-cmpe137.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:596849058278:ios:a59d58b5aab4ee31</string>
+	<key>DATABASE_URL</key>
+	<string>https://sparknow-cmpe137.firebaseio.com</string>
+</dict>
+</plist>

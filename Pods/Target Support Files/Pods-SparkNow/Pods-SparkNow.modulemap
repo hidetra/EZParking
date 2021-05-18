@@ -1,0 +1,6 @@
+framework module Pods_SparkNow {
+  umbrella header "Pods-SparkNow-umbrella.h"
+
+  export *
+  module * { export * }
+}
